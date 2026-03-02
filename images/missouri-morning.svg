@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" role="img" aria-labelledby="title desc">
+  <title id="title">Missouri morning background</title>
+  <desc id="desc">Stylized clean Missouri morning landscape with sunrise, river valley, farmland, and low rolling hills.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#cae6f6"/>
+      <stop offset="38%" stop-color="#e7f1f5"/>
+      <stop offset="64%" stop-color="#f5d6a9"/>
+      <stop offset="100%" stop-color="#f2e7cc"/>
+    </linearGradient>
+    <linearGradient id="sunGlow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fff4cc" stop-opacity="0.92"/>
+      <stop offset="100%" stop-color="#fff4cc" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="mist" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="ridgeFar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#94ab9b"/>
+      <stop offset="100%" stop-color="#7d9389"/>
+    </linearGradient>
+    <linearGradient id="ridgeMid" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6d887d"/>
+      <stop offset="100%" stop-color="#4f6c65"/>
+    </linearGradient>
+    <linearGradient id="ridgeNear" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#37544f"/>
+      <stop offset="100%" stop-color="#21393d"/>
+    </linearGradient>
+    <linearGradient id="river" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#eef8fb" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#cce4e6" stop-opacity="0.72"/>
+    </linearGradient>
+    <linearGradient id="fieldA" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d6c67f"/>
+      <stop offset="100%" stop-color="#c2b36e"/>
+    </linearGradient>
+    <linearGradient id="fieldB" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#91a96f"/>
+      <stop offset="100%" stop-color="#728a5e"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1920" height="1080" fill="url(#sky)"/>
+  <circle cx="1240" cy="290" r="124" fill="#fff1c4"/>
+  <circle cx="1240" cy="290" r="236" fill="url(#sunGlow)"/>
+
+  <ellipse cx="440" cy="210" rx="150" ry="42" fill="#ffffff" opacity="0.35"/>
+  <ellipse cx="700" cy="170" rx="196" ry="48" fill="#ffffff" opacity="0.28"/>
+  <ellipse cx="1450" cy="208" rx="176" ry="46" fill="#ffffff" opacity="0.24"/>
+  <ellipse cx="1120" cy="144" rx="132" ry="34" fill="#ffffff" opacity="0.22"/>
+
+  <path d="M0 620C138 564 274 542 430 560C555 575 646 570 762 536C883 500 1008 494 1157 531C1306 568 1419 578 1536 560C1668 540 1780 542 1920 574V1080H0Z" fill="url(#ridgeFar)"/>
+  <path d="M0 694C127 648 262 636 404 651C514 663 617 663 729 637C861 606 984 604 1114 637C1259 674 1385 680 1504 658C1634 635 1760 638 1920 675V1080H0Z" fill="url(#ridgeMid)"/>
+  <path d="M0 786C146 739 272 731 390 747C512 764 620 760 742 726C872 689 1015 690 1161 726C1304 762 1419 768 1528 747C1656 723 1787 725 1920 758V1080H0Z" fill="#99ad84"/>
+
+  <path d="M124 824C278 773 427 771 591 801C726 826 850 824 991 793C1166 755 1326 752 1495 792C1656 830 1784 834 1920 811V878C1776 894 1650 892 1481 854C1324 818 1168 819 1004 856C848 891 722 894 571 870C420 846 286 844 124 882Z" fill="url(#river)"/>
+  <ellipse cx="970" cy="820" rx="760" ry="36" fill="url(#mist)" opacity="0.52"/>
+
+  <path d="M0 868C149 818 278 816 408 839C527 860 650 860 776 832C938 796 1097 797 1256 831C1380 857 1496 858 1626 837C1728 821 1823 819 1920 832V1080H0Z" fill="url(#ridgeNear)"/>
+  <path d="M0 932C123 887 245 882 365 900C478 916 580 913 688 886C821 853 955 850 1088 885C1196 914 1300 918 1410 902C1549 882 1678 885 1920 930V1080H0Z" fill="url(#fieldB)"/>
+  <path d="M0 980C149 934 284 928 422 946C564 965 696 961 839 928C974 897 1111 895 1247 926C1388 958 1526 960 1664 940C1760 926 1847 923 1920 929V1080H0Z" fill="url(#fieldA)"/>
+
+  <path d="M140 1080V870L172 810L206 870V1080Z" fill="#20373d"/>
+  <circle cx="173" cy="800" r="54" fill="#20373d"/>
+  <circle cx="138" cy="835" r="42" fill="#20373d"/>
+  <circle cx="206" cy="838" r="38" fill="#20373d"/>
+
+  <path d="M1730 1080V846L1762 788L1798 846V1080Z" fill="#20373d"/>
+  <circle cx="1760" cy="776" r="60" fill="#20373d"/>
+  <circle cx="1718" cy="814" r="42" fill="#20373d"/>
+  <circle cx="1808" cy="816" r="40" fill="#20373d"/>
+
+  <g fill="#314b4b" opacity="0.86">
+    <rect x="1218" y="728" width="12" height="60" rx="6"/>
+    <circle cx="1224" cy="716" r="22"/>
+    <circle cx="1206" cy="730" r="16"/>
+    <circle cx="1245" cy="730" r="16"/>
+    <rect x="1270" y="732" width="10" height="52" rx="5"/>
+    <circle cx="1275" cy="722" r="18"/>
+    <circle cx="1261" cy="735" r="13"/>
+    <circle cx="1291" cy="735" r="13"/>
+  </g>
+</svg>

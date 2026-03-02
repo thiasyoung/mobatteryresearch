@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 720" role="img" aria-labelledby="title desc">
+  <title id="title">MOCAP wordmark</title>
+  <desc id="desc">Missouri Center for Advanced Power Research wordmark with a circular sunrise and battery icon.</desc>
+  <defs>
+    <linearGradient id="panel" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff8ec"/>
+      <stop offset="100%" stop-color="#f3e8d2"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f3c98f"/>
+      <stop offset="100%" stop-color="#cd7345"/>
+    </linearGradient>
+    <linearGradient id="sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#dceef8"/>
+      <stop offset="52%" stop-color="#f5d3a6"/>
+      <stop offset="100%" stop-color="#f8f3e8"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="20" stdDeviation="20" flood-color="#22323a" flood-opacity="0.18"/>
+    </filter>
+    <clipPath id="badgeClip">
+      <circle cx="270" cy="358" r="176"/>
+    </clipPath>
+  </defs>
+
+  <rect width="1440" height="720" rx="42" fill="url(#panel)"/>
+  <path d="M0 0H1440V154C1258 239 1066 273 874 256C626 234 462 88 238 78C154 74 74 90 0 134Z" fill="#f8e7c7"/>
+  <path d="M902 720C1008 588 1130 505 1284 458C1345 438 1398 429 1440 424V720Z" fill="#e6dbc4"/>
+  <circle cx="270" cy="358" r="194" fill="#132c35"/>
+  <circle cx="270" cy="358" r="183" fill="url(#accent)"/>
+  <circle cx="270" cy="358" r="176" fill="#10232c"/>
+
+  <g clip-path="url(#badgeClip)">
+    <rect x="70" y="150" width="400" height="416" fill="url(#sky)"/>
+    <circle cx="290" cy="283" r="54" fill="#fff1c8"/>
+    <ellipse cx="205" cy="258" rx="48" ry="16" fill="#ffffff" opacity="0.34"/>
+    <path d="M80 394C140 363 193 355 249 364C291 372 328 368 370 350C410 333 443 336 460 341V544H80Z" fill="#57786c"/>
+    <path d="M80 444C138 423 191 419 245 428C292 436 335 432 380 416C415 404 441 404 460 407V544H80Z" fill="#7a9d6d"/>
+    <path d="M80 485C136 466 192 465 248 475C296 483 338 481 390 462C419 452 442 451 460 453V544H80Z" fill="#16343a"/>
+    <path d="M58 463C114 451 171 452 235 462C293 471 340 471 391 459C424 451 446 450 482 452V480C448 477 423 479 388 490C338 506 291 507 231 498C173 490 113 491 58 503Z" fill="#f0d498" opacity="0.78"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="180" y="283" width="180" height="148" rx="28" fill="#fdf9ef"/>
+    <rect x="240" y="263" width="60" height="24" rx="12" fill="#fdf9ef"/>
+    <rect x="200" y="301" width="31" height="100" rx="12" fill="#e08c54"/>
+    <rect x="239" y="301" width="31" height="100" rx="12" fill="#f0bc72"/>
+    <rect x="278" y="301" width="31" height="100" rx="12" fill="#d0d9a7"/>
+    <rect x="317" y="301" width="23" height="100" rx="11" fill="#7da06d"/>
+    <path d="M200 419C228 405 253 402 276 409C301 417 322 417 339 406" fill="none" stroke="#1a444a" stroke-linecap="round" stroke-width="10"/>
+  </g>
+
+  <text x="520" y="305" fill="#b7623b" font-size="34" font-family="Arial, Helvetica, sans-serif" font-weight="700" letter-spacing="10">MISSOURI CENTER FOR ADVANCED POWER RESEARCH</text>
+  <text x="520" y="414" fill="#122630" font-size="150" font-family="Arial, Helvetica, sans-serif" font-weight="700" letter-spacing="7">MOCAP</text>
+  <text x="520" y="478" fill="#50626c" font-size="38" font-family="Arial, Helvetica, sans-serif" font-weight="400">Battery research, facility access, and workforce education in Missouri.</text>
+
+  <g transform="translate(520 545)">
+    <rect width="172" height="54" rx="27" fill="#132c35"/>
+    <text x="86" y="35" text-anchor="middle" fill="#f7e8c6" font-size="24" font-family="Arial, Helvetica, sans-serif" font-weight="700" letter-spacing="3">RESEARCH</text>
+  </g>
+  <g transform="translate(714 545)">
+    <rect width="156" height="54" rx="27" fill="#406156"/>
+    <text x="78" y="35" text-anchor="middle" fill="#f8f4ea" font-size="24" font-family="Arial, Helvetica, sans-serif" font-weight="700" letter-spacing="3">FACILITY</text>
+  </g>
+  <g transform="translate(892 545)">
+    <rect width="170" height="54" rx="27" fill="#cd7345"/>
+    <text x="85" y="35" text-anchor="middle" fill="#fffaf1" font-size="24" font-family="Arial, Helvetica, sans-serif" font-weight="700" letter-spacing="3">EDUCATION</text>
+  </g>
+  <g transform="translate(1084 545)">
+    <rect width="146" height="54" rx="27" fill="#d8c59d"/>
+    <text x="73" y="35" text-anchor="middle" fill="#213740" font-size="24" font-family="Arial, Helvetica, sans-serif" font-weight="700" letter-spacing="3">PARTNERS</text>
+  </g>
+</svg>

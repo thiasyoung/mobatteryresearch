@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">MOCAP badge</title>
+  <desc id="desc">Circular Missouri Center for Advanced Power Research logo with a sunrise, layered hills, and a battery mark.</desc>
+  <defs>
+    <linearGradient id="ring" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f6d29f"/>
+      <stop offset="100%" stop-color="#cc7243"/>
+    </linearGradient>
+    <linearGradient id="sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d9eef9"/>
+      <stop offset="55%" stop-color="#f4d1a4"/>
+      <stop offset="100%" stop-color="#f6f0df"/>
+    </linearGradient>
+    <linearGradient id="hillBack" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5f7f73"/>
+      <stop offset="100%" stop-color="#35554f"/>
+    </linearGradient>
+    <linearGradient id="hillFront" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#244746"/>
+      <stop offset="100%" stop-color="#17343a"/>
+    </linearGradient>
+    <linearGradient id="battery" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fefcf7"/>
+      <stop offset="100%" stop-color="#f3efe3"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#16303a" flood-opacity="0.28"/>
+    </filter>
+    <clipPath id="clipCircle">
+      <circle cx="256" cy="256" r="214"/>
+    </clipPath>
+  </defs>
+
+  <circle cx="256" cy="256" r="236" fill="#112731"/>
+  <circle cx="256" cy="256" r="225" fill="url(#ring)"/>
+  <circle cx="256" cy="256" r="214" fill="#10222b"/>
+
+  <g clip-path="url(#clipCircle)">
+    <rect width="512" height="512" fill="url(#sky)"/>
+    <circle cx="274" cy="176" r="66" fill="#fff2c9" opacity="0.94"/>
+    <ellipse cx="173" cy="148" rx="58" ry="18" fill="#ffffff" opacity="0.34"/>
+    <ellipse cx="330" cy="126" rx="76" ry="22" fill="#ffffff" opacity="0.28"/>
+    <path d="M0 286C70 250 126 242 196 256C246 266 288 262 340 238C396 213 454 220 512 252V512H0Z" fill="url(#hillBack)"/>
+    <path d="M0 336C83 309 146 302 216 320C272 334 323 330 379 309C428 291 470 295 512 318V512H0Z" fill="#7ea16d"/>
+    <path d="M0 384C86 352 151 345 223 362C284 376 332 370 395 348C439 332 474 332 512 346V512H0Z" fill="url(#hillFront)"/>
+    <path d="M0 427C74 401 136 398 210 410C266 419 319 416 382 398C429 385 470 385 512 394V512H0Z" fill="#0f242e"/>
+    <path d="M-12 399C71 376 134 376 210 391C271 403 320 400 390 378C446 361 482 362 524 370V406C484 398 446 398 388 414C321 433 270 437 206 424C139 411 76 412-12 438Z" fill="#d5b77a" opacity="0.7"/>
+    <path d="M-8 404C56 391 120 392 187 402C256 412 310 411 371 398C434 384 476 383 520 389V405C479 398 438 400 378 416C314 434 255 437 183 427C117 418 60 420-8 435Z" fill="#f6dfad" opacity="0.76"/>
+  </g>
+
+  <g filter="url(#softShadow)">
+    <rect x="146" y="154" width="220" height="178" rx="32" fill="url(#battery)"/>
+    <rect x="218" y="130" width="76" height="28" rx="14" fill="url(#battery)"/>
+    <rect x="170" y="176" width="38" height="120" rx="14" fill="#e08c54"/>
+    <rect x="218" y="176" width="38" height="120" rx="14" fill="#f0bc72"/>
+    <rect x="266" y="176" width="38" height="120" rx="14" fill="#d2dcb0"/>
+    <rect x="314" y="176" width="28" height="120" rx="14" fill="#7fa16d"/>
+    <path d="M169 318C205 300 235 297 265 306C295 315 319 315 343 301" fill="none" stroke="#1c454b" stroke-linecap="round" stroke-width="14"/>
+    <circle cx="169" cy="318" r="9" fill="#1c454b"/>
+    <circle cx="343" cy="301" r="9" fill="#1c454b"/>
+  </g>
+
+  <circle cx="256" cy="256" r="214" fill="none" stroke="#ffffff" stroke-opacity="0.18" stroke-width="8"/>
+</svg>
