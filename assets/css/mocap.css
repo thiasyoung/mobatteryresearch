@@ -189,6 +189,33 @@ h4,
 	border-bottom-color: rgba(241, 186, 123, 0.35);
 }
 
+.partner-logo-frame {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 6.25rem;
+	margin-bottom: 1rem;
+	padding: 0.9rem 1rem;
+	border-radius: 4px;
+	background: rgba(255, 255, 255, 0.94);
+}
+
+.partner-logo {
+	display: block;
+	max-width: 100%;
+	max-height: 4.4rem;
+	width: auto;
+	height: auto;
+}
+
+.partner-logo-square {
+	max-height: 5rem;
+}
+
+.partner-logo-wide {
+	max-height: 3.4rem;
+}
+
 .quote-block {
 	margin: 1.75rem 0;
 	padding: 1.35rem 1.5rem;
