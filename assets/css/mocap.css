@@ -209,7 +209,8 @@ h4,
 	margin-bottom: 1rem;
 	padding: 0.9rem 1rem;
 	border-radius: 4px;
-	background: rgba(255, 255, 255, 0.94);
+	border: solid 1px rgba(154, 164, 176, 0.62);
+	background: rgba(213, 219, 227, 0.96);
 }
 
 .partner-logo {
