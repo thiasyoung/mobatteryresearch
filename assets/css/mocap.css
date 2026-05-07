@@ -160,7 +160,25 @@ h4,
 	object-fit: cover;
 }
 
-#main article .partners-hero img {
+#main article .summit-reel {
+	position: relative;
+	overflow: hidden;
+	background: rgba(255, 255, 255, 0.04);
+}
+
+#main article .summit-reel img {
+	display: block;
+	width: 100%;
+	transition: opacity 280ms ease-in-out;
+}
+
+#main article .summit-reel.is-fading img {
+	opacity: 0.22;
+}
+
+#main article .image.main.partners-hero img {
+	max-height: none;
+	height: auto;
 	background: #ffffff;
 	object-fit: contain;
 }
